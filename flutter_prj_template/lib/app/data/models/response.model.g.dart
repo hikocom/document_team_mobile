@@ -30,39 +30,6 @@ Map<String, dynamic> _$PaginationResultToJson(PaginationResult instance) =>
       'totalCount': instance.totalCount,
     };
 
-LoadParamModel _$LoadParamModelFromJson(Map<String, dynamic> json) =>
-    LoadParamModel(
-      customParams: json['customParams'],
-      loadOptions: DataSourceLoadOptions.fromJson(
-          json['loadOptions'] as Map<String, dynamic>),
-    );
-
-Map<String, dynamic> _$LoadParamModelToJson(LoadParamModel instance) =>
-    <String, dynamic>{
-      'loadOptions': instance.loadOptions,
-      'customParams': instance.customParams,
-    };
-
-DataSourceLoadOptions _$DataSourceLoadOptionsFromJson(
-        Map<String, dynamic> json) =>
-    DataSourceLoadOptions(
-      searchExpr: json['searchExpr'] as String,
-      searchOperation: json['searchOperation'] as String,
-      searchValue: json['searchValue'] as String,
-      skip: json['skip'] as int? ?? 0,
-      take: json['take'] as int? ?? 10,
-    );
-
-Map<String, dynamic> _$DataSourceLoadOptionsToJson(
-        DataSourceLoadOptions instance) =>
-    <String, dynamic>{
-      'searchExpr': instance.searchExpr,
-      'searchOperation': instance.searchOperation,
-      'searchValue': instance.searchValue,
-      'skip': instance.skip,
-      'take': instance.take,
-    };
-
 DataResultModel _$DataResultModelFromJson(Map<String, dynamic> json) =>
     DataResultModel(
       data: json['data'],
@@ -73,14 +40,4 @@ Map<String, dynamic> _$DataResultModelToJson(DataResultModel instance) =>
     <String, dynamic>{
       'data': instance.data,
       'totalCount': instance.totalCount,
-    };
-
-BaseModel _$BaseModelFromJson(Map<String, dynamic> json) => BaseModel(
-      key: json['key'] as String,
-      value: json['value'] as String,
-    );
-
-Map<String, dynamic> _$BaseModelToJson(BaseModel instance) => <String, dynamic>{
-      'key': instance.key,
-      'value': instance.value,
     };

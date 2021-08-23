@@ -1,8 +1,9 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_template/app/data/models/user.model.dart';
 import 'package:flutter_template/app/enums/enums.dart';
 import 'package:flutter_template/app/modules/user/screens/user_detail.screen.dart';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class UserItem extends StatelessWidget {
