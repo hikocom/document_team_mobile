@@ -31,7 +31,11 @@ class UserController extends GetxController {
       await repository.getUsers().then(
         (response) {
           if (response.statusCode == APIStatus.Successfully) {
-            DataResultModel dataResultModel = DataResultModel.fromJson(response.body);
+            var fakeResult = {
+              "data" : response.body,
+              "totalCount": 11,
+            };
+            DataResultModel dataResultModel = DataResultModel.fromJson(fakeResult);
 
             List<UserModel> result = dataResultModel.data.map<UserModel>((item) => new UserModel.fromJson(item)).toList();
             _users.addAll(result);

@@ -14,8 +14,7 @@ class DioInterceptors extends InterceptorsWrapper {
   DioInterceptors(this._dio);
 
   @override
-  Future onRequest(
-      RequestOptions options, RequestInterceptorHandler handler) async {
+  Future onRequest(RequestOptions options, RequestInterceptorHandler handler) async {
     final bool hasInternet = await _checkInternetConnection();
     if (hasInternet) {
       //TODO: Implement
@@ -23,13 +22,13 @@ class DioInterceptors extends InterceptorsWrapper {
       MessageDialog.showMessage(LocaleKeys.Login_NoInternet.tr);
       return;
     }
-
+    super.onRequest(options, handler);
     return options;
   }
 
   @override
   void onResponse(dio.Response response, ResponseInterceptorHandler handler) {
-    return super.onResponse(response, handler);
+    super.onResponse(response, handler);
   }
 
   @override

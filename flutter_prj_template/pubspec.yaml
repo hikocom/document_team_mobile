@@ -29,6 +29,7 @@ dependencies:
   build_runner: ^2.1.1
   json_serializable: ^5.0.0
   connectivity: ^3.0.6
+  built_value: ^8.1.2
 
   flutter:
     sdk: flutter

@@ -22,7 +22,6 @@ class UserScreen extends StatelessWidget {
       body: GetBuilder<UserController>(
         init: Get.find<UserController>(),
         builder: (controller) {
-          print(controller.users);
           return ListView.builder(
             itemCount: controller.users.length,
             padding: const EdgeInsets.symmetric(

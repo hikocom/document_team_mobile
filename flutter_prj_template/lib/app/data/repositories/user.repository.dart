@@ -5,9 +5,9 @@ import 'package:flutter_template/app/utils/http_utils.dart';
 
 class UserRepository {
   Future<HttpResponse> getUsers() async {
-    //  return await HttpHelper.get(Endpoints.USERS);
+     return await HttpHelper.get(Endpoints.USERS);
     return HttpResponse(
-      body: UserMock.getUsers(),
+      body: UserMock.getUsers2(),
       headers: Headers(),
       request: RequestOptions(path: ''),
       statusMessage: "Success",

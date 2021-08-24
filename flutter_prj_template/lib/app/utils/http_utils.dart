@@ -31,9 +31,7 @@ class HttpHelper {
 
   static Future<HttpResponse> get(String url) async {
     final dio = HttpHelper.getDio();
-    print(url);
     final Response response = await dio.get(url);
-    print(response);
     return HttpResponse(
       body: response.data,
       headers: response.headers,
