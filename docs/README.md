@@ -1,3 +1,0 @@
-Hiko document
-
-Init Finder
