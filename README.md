@@ -28,7 +28,7 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 ## Documentation
 
 - [Website Official](https://github.com/hikocom/document_team_mobile)
-- [Github](hhttps://github.com/hikocom/document_team_mobile/blob/main/README.md)
+- [Github](https://github.com/hikocom/document_team_mobile/blob/main/README.md)
 
 !> The Tips: If you access from Git, you should access this doc by web official above to easy to read and learn all this documentation
 
