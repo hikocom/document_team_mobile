@@ -24,7 +24,7 @@
 [![HTML](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)]()
 
 
-> The place to share the programming experiences for The Mobile Team(HIKO)
+> The place to share the programming experiences of The Mobile Team(HIKO)
 
 - Simple & Quickly & Lightweight
 - Highly Reusable
