@@ -27,7 +27,7 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 
 ## Documentation
 
-- [Website Official](https://xuanvinhtd.github.io/share_my_dev_exps/)
+- [Website Official](https://github.com/hikocom/document_team_mobile)
 - [Github](hhttps://github.com/hikocom/document_team_mobile/blob/main/README.md)
 
 !> The Tips: If you access from Git, you should access this doc by web official above to easy to read and learn all this documentation
@@ -46,8 +46,8 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 - Video Tutorials
 - HIKO Team Document
 
-?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://xuanvinhtd.github.io/share_my_dev_exps/).
+?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://hikocom.github.io/document_team_mobile/).
 # Maintainers
-- [David Ho vs Mobile Team](https://github.com/xuanvinhtd)
+- [David Ho vs Mobile Team](https://github.com/HikoVinhHo)
 
-[MIT license](LICENSE)
+[MIT license](https://github.com/hikocom/document_team_mobile/blob/main/LICENSE)
