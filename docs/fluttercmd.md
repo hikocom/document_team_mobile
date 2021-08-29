@@ -328,4 +328,4 @@ keytool -genkey -v -keystore CastDiceFree.jks -storepass cdfree20210504 -alias C
 
 ## Copyright & License
 
-This open source project authorized by Vinh Ho.X(hoxuanvinhuit93@gmail.com), and the license is MIT.
+This open source project authorized by Mobile Team(vinh.hx@hikotech.io), and the license is MIT.

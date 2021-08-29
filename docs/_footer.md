@@ -1,2 +1,1 @@
-Contact with me by [hoxuanvinhuit93@gmail.com](hoxuanvinhuit93@gmail.com).<br/>
-[Or Facebook](https://www.facebook.com/xuanvinh.ho/) 💖
+Contact with me by [vinh.hx@hikotech.io](vinh.hx@hikotech.io).<br/>💖
